@@ -182,3 +182,89 @@ nav ul li a:hover{
     background:#f5b321;
     border-radius:5px;
 }
+@media (max-width: 768px){
+
+    header{
+        padding:20px;
+    }
+
+    nav{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav ul{
+        flex-direction:column;
+        margin-top:15px;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .hero-text{
+        max-width:100%;
+    }
+
+    .hero-text h1{
+        font-size:38px;
+    }
+
+    .hero-text h3{
+        font-size:20px;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:10px;
+    }
+
+    .btn{
+        margin-right:0;
+    }
+
+    .hero-img img{
+        width:100%;
+        max-width:300px;
+        margin-bottom:20px;
+    }
+
+    .about{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .about-img img{
+        width:100%;
+        max-width:300px;
+    }
+
+    .about-text{
+        max-width:100%;
+    }
+
+    .about-text h2{
+        font-size:36px;
+    }
+
+    .skills{
+        padding:40px 20px;
+    }
+
+    .skills h2{
+        font-size:36px;
+    }
+
+    .skill-container{
+        grid-template-columns:1fr;
+    }
+}
