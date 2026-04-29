@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#000;
+    color:white;
+}
+
+/* Navbar */
+header{
+    width:100%;
+    padding:20px 80px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+    color:#f5b321;
+}
+
+/* Hero */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 80px;
+    min-height:90vh;
+}
+
+.hero-text{
+    max-width:50%;
+}
+
+.hello{
+    color:#f5b321;
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.hero-text h1{
+    font-size:60px;
+    line-height:1.2;
+}
+
+.hero-text h1 span{
+    color:#f5b321;
+}
+
+.hero-text h3{
+    margin:20px 0;
+    font-size:28px;
+    font-weight:normal;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    border:1px solid white;
+    border-radius:25px;
+    text-decoration:none;
+    color:white;
+    margin-right:10px;
+    font-size:14px;
+}
+
+.yellow{
+    background:#f5b321;
+    color:black;
+    border:none;
+}
+
+.hero-img img{
+    width:500px;
+}
+
+/* About */
+.about{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px;
+    gap:50px;
+}
+
+.about-img img{
+    width:400px;
+}
+
+.about-text{
+    max-width:50%;
+}
+
+.about-text h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    color:#bbb;
+    margin-bottom:10px;
+}
+
+.info p{
+    margin:8px 0;
+}
+
+.about-text h4{
+    margin:20px 0;
+    color:#f5b321;
+}
+
+/* Skills */
+.skills{
+    padding:80px;
+    text-align:center;
+}
+
+.skills h2{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.skills p{
+    color:#bbb;
+    margin-bottom:40px;
+}
+
+.skill-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.skill-title{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:8px;
+}
+
+.bar{
+    width:100%;
+    height:8px;
+    background:#222;
+    border-radius:5px;
+}
+
+.fill{
+    height:100%;
+    background:#f5b321;
+    border-radius:5px;
+}
